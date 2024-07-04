@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lifecycle-stuff
+  description: Lifecycle Stuff
+  labels:
+    goVersion: go1.15.3
+    category: music
+  tags:
+    - go
+spec:
+  type: service
+  lifecycle: production
+  owner: governance
+  system: lifecycle
